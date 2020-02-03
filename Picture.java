@@ -16,7 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private boolean drawn;
-    
+    //hdhdiedkwl
 
     private Person person;
    
