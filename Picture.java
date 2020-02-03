@@ -17,7 +17,7 @@ public class Picture
     private Circle sun;
     private boolean drawn;
     //hdhdiedkwl
-
+    qwertyuioplkjhjhjkjjk
     private Person person;
    
     /**
