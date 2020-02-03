@@ -16,7 +16,16 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private boolean drawn;
+    
 
+    private Person person;
+   
+    /**
+     * Create a new person at default position with default color.
+     */
+
+
+    
     /**
      * Constructor for objects of class Picture
      */
@@ -26,6 +35,8 @@ public class Picture
         window = new Square();
         roof = new Triangle();  
         sun = new Circle();
+    
+        
         drawn = false;
     }
 
@@ -52,15 +63,21 @@ public class Picture
             roof.moveVertical(-60);
             roof.makeVisible();
     
-            sun.changeColor("yellow");
+            sun.changeColor("blue");
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
             sun.changeSize(80);
             sun.makeVisible();
+          
+            
             drawn = true;
+            
+            
+            
         }
     }
-
+    
+        
     /**
      * Change this picture to black/white display
      */

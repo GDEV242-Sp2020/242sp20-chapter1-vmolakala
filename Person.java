@@ -28,6 +28,7 @@ public class Person
         color = "black";
         isVisible = false;
     }
+    
 
     /**
      * Make this person visible. If it was already visible, do nothing.
